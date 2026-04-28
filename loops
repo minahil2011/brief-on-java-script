@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Loops
+        </title>
+    </head>
+    <body>
+        <h1>
+            Loops in JS
+        </h1>
+        <p id="result"></p>
+        <script>
+            var text = "";
+            var i = 0;
+            while(i < 10){
+                text +="<br>The number is "+ i ;
+                i++; 
+            }
+            document.getElementById("result").innerHTML = text;
+        </script>
+    </body>
+</html>
