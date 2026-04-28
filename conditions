@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Conditional Statements
+        </title>
+    </head>
+    <body>
+        <h1 style="font-family:'Times New Roman', Times, serif;color:blue;">
+            Conditional Statements
+        </h1>
+        <button type="button" onclick="myFunction()">Try it!</button>
+        <p id="time"></p>
+        <p id="greet"></p>
+        <script>
+            function myFunction(){
+            var greet;
+            var time = new Date().getHours();
+            if(time < 10){
+                greet = "GOOD MORNING";
+            }
+            else if(time < 19){
+                greet = "GOOD DAY";
+            }
+            else{
+                greet = "GOOD NIGHT";
+            }
+            document.getElementById("time").innerHTML = "The current hour is: " + time;
+            document.getElementById("greet").innerHTML = greet;
+            }
+        </script>
+    </body>
+</html>
