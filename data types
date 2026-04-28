@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Data Types
+        </title>
+    </head>
+    <body>
+        <h1 style="font-family:Georgia, 'Times New Roman', Times, serif;color:aquamarine;">
+            Data Types
+        </h1>
+        <script>
+            var a=5;
+            let b=13;
+            const c=5;
+            let d=null;
+            var e ; //undefined
+            document.write("a and b are equal: "+(a==b));
+            document.write("a and c are equal: "+(a==c));
+            document.write("The value of d is "+ d);
+            document.write("the value of e is "+ e);
+        </script>
+    </body>
+</html>
