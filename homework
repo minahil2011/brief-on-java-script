@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Print random numbers</title>
+    </head>
+    <body>
+        <h1 style="font-family:cursive;color:blueviolet">
+          PRINT RANDOM NUMBERS
+        </h1>
+        <p id="result"; style="font-family: cursive;"></p>
+        <script>
+            let i = 0;
+            let text = "";
+            while (i < 10) {
+            let randomNum = Math.floor(Math.random() * 20); // 0–99
+            text += "Random number: " + randomNum + "<br>";
+            i++;
+            }
+            document.getElementById("result").innerHTML = text;
+        </script>
+    </body>
+</html>
